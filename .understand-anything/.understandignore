@@ -1,0 +1,109 @@
+# .understandignore - patterns for files/dirs to exclude from analysis
+# Syntax: same as .gitignore (globs, # comments, ! negation, trailing / for dirs)
+# Lines below are suggestions - uncomment to activate.
+# Use ! prefix to force-include something excluded by defaults.
+#
+# Built-in defaults are always excluded unless negated:
+#   node_modules/, .git/, dist/, build/, obj/, *.lock, *.min.js, etc.
+#
+
+# --- From .gitignore (uncomment to exclude) ---
+
+# .env
+# .env.*
+# !.env.example
+# .pytest_cache/
+# .mypy_cache/
+# .ruff_cache/
+# .hypothesis/
+# .venv/
+# venv/
+# *.egg-info/
+# .eggs/
+# out/
+# /plotpilot-backend.spec
+# *.pid
+# .superpowers/
+# frontend/.vite/
+# frontend/dist/
+# .playwright-mcp/
+# .claude/
+# .trae/
+# .coverage
+# .coverage.*
+# htmlcov/
+# coverage.xml
+# *.cover
+# *.db
+# *.db.backup
+# *.db-shm
+# *.db-wal
+# *.sqlite
+# *.sqlite3
+# data/novels/
+# data/foreshadowings/
+# data/bibles/bible-novel-*.json
+# data/bibles/novel-*-bible.json
+# data/bibles/bible-test-*.json
+# data/bibles/bible-final-*.json
+# output/novels/*/
+# !output/novels/.gitkeep
+# interfaces/data/
+# .DS_Store
+# Thumbs.db
+# Desktop.ini
+# qdrant_storage/
+# .models/
+# scripts/evaluation/results/
+# data/chromadb/
+# data/logs/
+# data/llm_configs.json
+# logs/
+# aitext.spec
+# aitext.exe
+# aitext.pkg
+# Analysis-*.toc
+# COLLECT-*.toc
+# EXE-*.toc
+# PKG-*.toc
+# PYZ-*.toc
+# warn-*.txt
+# xref-*.html
+# localpycs/
+# base_library.zip
+tools/python_embed/
+# /tools/aitext/
+# PlotPilot-master/
+# llm_profiles.json
+# scripts/aitext.lock
+# frontend/src-tauri/target/
+# frontend/src-tauri/Cargo.lock
+# frontend/src-tauri/scripts/
+# frontend/src-tauri/tools/
+# scripts/build_installer.py
+# scripts/build_backend_pyinstaller.py
+# scripts/tauri_backend_launcher.py
+# requirements-nsis.txt
+# docs/BUILD_INSTALLER.md
+# PlotPilot_*-setup.exe
+# PlotPilot*.exe
+# *.msi
+# .cursor/*
+# !.cursor/rules/
+# mcps/
+# *副本*
+# *.rs.bk
+# *.orig
+# *.rej
+
+# --- Detected directories (uncomment to exclude) ---
+
+tests/
+# docs/
+# scripts/
+
+# --- Test file patterns (uncomment to exclude) ---
+
+# *.test.*
+# *.spec.*
+# *.snap
